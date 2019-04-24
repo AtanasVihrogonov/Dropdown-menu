@@ -2,7 +2,6 @@
   --primary-color: #9a9da1;
   --secondary-color:  #9e9c9c;
 }
- 
 
 * {
   margin: 0;
@@ -32,7 +31,9 @@ body {
   text-decoration: none;
 }
 
-/* Hide nested ul by default */
+/**
+ * = MAIN Comment Block
+ * ================================== */
 #navbar ul li ul {
   display: none;
 }
@@ -47,7 +48,9 @@ body {
   color: #fff;
 }
 
-/* Nested dropdown show */
+/**
+ * = Nested dropdown show
+ * ============================== */
 #navbar ul li:hover ul {
   display: block;
   position: absolute;
